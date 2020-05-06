@@ -1,0 +1,61 @@
+.order-details:hover, .make-order:hover{
+    text-decoration: underline;
+}
+
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%) !important;
+}
+.modal-lg {
+    max-width: 100% !important;
+    min-width: 95% !important;
+    
+}
+.pending-orders-table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+/*.pending-orders-table td, th{
+     border: none !important;
+     padding: 1em;
+}*/
+#pending-orders-modal-content{
+    /* overflow-y: scroll; */
+}
+.fc-day{
+    border: 1px solid #000;
+}
+.event-class{
+    min-height:20px;
+}
+
+.block-button-class{
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.hours{
+    /* border-right: 1px solid #337ab7 !important; */
+}
+
+/* .busy-schedule-table tr td {
+    border-right: 1px solid #337ab7 !important;
+} */
+
+busy-schedule-table thead tr,
+.busy-schedule-table tbody tr,
+.busy-schedule-table thead tr td, .busy-schedule-table tbody tr td {
+  border: 1px solid #337ab7 !important;
+  border-collapse: collapse;
+}
+
+#block-details-modal > div{
+    float:left;
+}
+
+#filter-options-container {
+    margin-bottom: 1%;
+}

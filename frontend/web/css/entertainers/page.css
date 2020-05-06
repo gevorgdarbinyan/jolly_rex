@@ -1,0 +1,198 @@
+/*.carousel-inner img {
+    width: 100%;  Set width to 100% 
+    margin: auto;
+    min-height:200px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; 
+    }
+}
+*/
+
+/*.product-slider { padding: 45px; }*/
+
+.product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
+
+.product-slider #thumbcarousel { margin: 12px 0 0; padding: 0 45px; }
+
+.product-slider #thumbcarousel .item { text-align: center; }
+
+.product-slider #thumbcarousel .item .thumb { border: 4px solid #cecece; width: 20%; margin: 0 2%; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 98px; }
+
+.product-slider #thumbcarousel .item .thumb:hover { border-color: #1089c0; }
+
+.product-slider .item img { width: 100%; height: auto; }
+
+.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
+
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
+
+.carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
+/*.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }*/
+
+/*.carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }*/
+
+#carousel img { height: 340px; }
+
+.venue-page {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 50px 20px 20px 20px;
+}
+
+.carousel-new-style {
+/*    color: #1089c0;
+    background-color: transparent;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #1089c0;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.carousel-new-style.right {
+    right: 0;
+    left: auto;
+}
+
+.carousel-new-style.left {
+
+}
+
+.expand-collapse-link:hover,.expand-collapse-link:focus{
+    text-decoration: none;
+}
+#accordion .panel{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: #fff;
+    position: relative;
+}
+#accordion .panel-title a:hover, #accordion .panel-title a:active, #accordion .panel-title a:visited, #accordion .panel-title a:focus {
+    text-decoration: none;
+}
+#accordion .panel-title a{
+    display: block;
+    padding: 15px 35px;
+    margin: 0 0 20px 0;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color: #044f79;
+    /*text-transform: uppercase;*/
+    /*border-bottom: 0.1px solid #044f79;*/
+    /*border-radius: 0 0 0 30px;*/
+    position: relative;
+    letter-spacing: 3px;
+}
+#accordion .panel-title .expand-collapse-link.collapsed{ margin-bottom: 0; }
+#accordion .panel-title .expand-collapse-link:before,
+#accordion .panel-title .expand-collapse-link.collapsed:before{
+    content: "\f068";
+    font-weight: 900;
+    font-size: 18px;
+    font-weight: normal;
+    color: #044f79;
+    position: absolute;
+    top: 15px;
+    right: 17px;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title .expand-collapse-link.collapsed:before{ content: "\f067"; }
+#accordion .panel-title .expand-collapse-link:after{
+    content: "";
+    border-top: 15px solid #044f79;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    bottom: -15px;
+    left: 15%;
+}
+#accordion .panel-title .expand-collapse-link.collapsed:after{ display: none; }
+#accordion .panel-body{
+    padding: 20px 30px;
+    /*background: #cce5ff;*/
+    border-color: #b8daff;
+    border: 1px solid;
+    font-size: 15px;
+    color: #004085;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+
+.entertainer-page {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 30px 20px 20px 10px;
+}
+
+.entertainer-active-order-line {
+    margin: 50px;
+    padding: 30px 20px 20px 10px;
+}
+
+#time-container{
+    display: none;
+}
+
+.selected-date{
+    font-weight:bold;
+    font-size: 14px;
+}
+
+.carousel-inner > .item {
+  height: 60vh;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 800px;
+  width: 100%;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.modal-schedule-container{
+    padding: 15px;
+}
+
+.make-a-booking-class {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.label-class{
+    color:#1c1c92;
+    font-size: 21px;
+}
+
+.total-price{
+    font-size:25px;
+}

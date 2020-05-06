@@ -1,0 +1,30 @@
+.product-external-page {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 110px;
+    /*padding: 50px 20px 20px 20px;*/
+}
+
+.product-page-header {
+    /*text-align: center;*/
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.price-header {
+    margin-top: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.input-number-decrement{
+    cursor:pointer;
+}
+
+.input-number-increment{
+    cursor:pointer;
+}

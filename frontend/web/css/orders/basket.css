@@ -1,0 +1,60 @@
+.basket_template_lg {
+    padding: 0px !important;
+}
+
+.basket-add-entertainer-text-class{
+    color: #1c1c92;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.basket-add-venue-text-class{
+    color: #1c1c92;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.basket-add-food-text-class {
+    color: #1c1c92;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.basket-add-product-text-class {
+    color: #1c1c92;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.basket-need-entertainer-text-class{
+    font-size: 18px !important;
+    color: #1c1c92;
+    width: 180px !important;
+}
+
+.basket-need-venue-text-class{
+    font-size: 18px !important;
+    color: #1c1c92;
+    width: 180px !important;
+}
+
+.basket-need-food-text-class {
+    font-size: 18px !important;
+    color: #1c1c92;
+    width: 180px !important;
+}
+
+.basket-need-product-text-class {
+    font-size: 18px !important;
+    color: #1c1c92;
+    width: 180px !important;
+}
+
+.entertainer-heading-title{
+    font-size: 24px !important;
+    
+}
+
+.entertainer-heading-title a{
+    color: #1c1c92 !important;
+}

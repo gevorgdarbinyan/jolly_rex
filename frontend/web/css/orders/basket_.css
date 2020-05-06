@@ -1,0 +1,422 @@
+.orders-row {
+    /*background-image: url('/images/bubble1.jpg');*/
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.orders-block {
+    /*background-image: url('/images/bubble1.jpg');*/
+}
+
+.venue-info-main {
+    border: 1px solid #CEEFFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: #fff;
+    padding: 6px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(21,180,255,0.5);
+    box-shadow: 0 1px 1px 0 rgba(21,180,255,0.5);
+}
+
+/*.venue-info-main .venue-image {
+    background-color: #EBF8FE;
+    display: block;
+    min-height: 238px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #CEEFFF;
+    padding-top: 40px;
+}*/
+
+.venue-info-main .venue-detail {
+    border-bottom: 1px solid #dfe5e9;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    background: #fff
+}
+
+.product-content .venue-detail h5 a {
+    color: #2f383d;
+    font-size: 15px;
+    line-height: 19px;
+    text-decoration: none;
+    padding-left: 0;
+    margin-left: 0
+}
+
+.venue-info-main .venue-detail h5 a span {
+    color: #9aa7af;
+    display: block;
+    font-size: 13px
+}
+
+.venue-info-main .venue-detail span.tag1 {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    height: 50px;
+    padding: 13px 0;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 50px
+}
+
+.venue-info-main .venue-detail span.sale {
+    background-color: #21c2f8
+}
+
+.venue-info-main .venue-detail span.discount {
+    background-color: #71e134
+}
+
+.venue-info-main .venue-detail span.hot {
+    background-color: #fa9442
+}
+
+.venue-info-main .description {
+    font-size: 12.5px;
+    line-height: 20px;
+    padding: 10px 14px 16px 19px;
+    background: #fff
+}
+
+.venue-info-main .venue-info {
+    padding: 11px 19px 10px 20px
+}
+
+.venue-info-main .venue-info a.add-to-cart {
+    color: #2f383d;
+    font-size: 13px;
+    padding-left: 16px
+}
+
+.venue-info-main name.a {
+    padding: 5px 10px;
+    margin-left: 16px
+}
+
+.venue-info.smart-form .btn {
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-top: -10px
+}
+
+.load-more-btn {
+    background-color: #21c2f8;
+    border-bottom: 2px solid #037ca5;
+    border-radius: 2px;
+    border-top: 2px solid #0cf;
+    margin-top: 20px;
+    padding: 9px 0;
+    width: 100%
+}
+
+.product-block .venue-detail p.price-container span,
+.venue-info-main .venue-detail p.price-container span,
+.shipping table tbody tr td p.price-container span,
+.shopping-items table tbody tr td p.price-container span {
+    color: #21c2f8;
+    font-size: 24px;
+    line-height: 20px
+}
+
+.venue-info.smart-form .rating label {
+    margin-top:15px;
+    
+}
+
+.venue-wrap .venue-image span.tag2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 11px;
+    text-align: center
+}
+
+.venue-wrap .venue-image span.tag3 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 60px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 11px;
+    text-align: center
+}
+
+.venue-wrap .venue-image span.sale {
+    background-color: #57889c;
+}
+
+.venue-wrap .venue-image span.hot {
+    background-color: #a90329;
+}
+
+.venue-wrap .venue-image span.special {
+    background-color: #3B6764;
+}
+.shop-btn {
+    position: relative
+}
+
+.shop-btn>span {
+    background: #a90329;
+    display: inline-block;
+    font-size: 10px;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    font-weight: 700;
+    border-radius: 50%;
+    padding: 2px 4px 3px!important;
+    text-align: center;
+    line-height: normal;
+    width: 19px;
+    top: -7px;
+    left: -7px
+}
+
+.venue-detail hr {
+    padding: 0 0 5px!important
+}
+
+.venue-detail .glyphicon {
+    color: #3276b1
+}
+
+.venue-detail .venue-image {
+    border-right: 0px solid #fff !important
+}
+
+.venue-detail .name {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.venue-detail .name small {
+    display: block
+}
+
+.venue-detail .name a {
+    margin-left: 0
+}
+
+.venue-detail .price-container {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 300;
+    
+}
+
+.venue-detail .price-container small {
+    font-size: 12px;
+    
+}
+
+.venue-detail .fa-2x {
+    font-size: 16px!important
+}
+
+.venue-detail .fa-2x>h5 {
+    font-size: 12px;
+    margin: 0
+}
+
+.venue-detail .fa-2x+a,
+.venue-detail .fa-2x+a+a {
+    font-size: 13px
+}
+
+.venue-detail .certified {
+    margin-top: 10px
+}
+
+.venue-detail .certified ul {
+    padding-left: 0
+}
+
+.venue-detail .certified ul li:not(first-child) {
+    margin-left: -3px
+}
+
+.venue-detail .certified ul li {
+    display: inline-block;
+    background-color: #f9f9f9;
+    padding: 13px 19px
+}
+
+.venue-detail .certified ul li:first-child {
+    border-right: none
+}
+
+.venue-detail .certified ul li a {
+    text-align: left;
+    font-size: 12px;
+    color: #6d7a83;
+    line-height: 16px;
+    text-decoration: none
+}
+
+.venue-detail .certified ul li a span {
+    display: block;
+    color: #21c2f8;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center
+}
+
+.venue-detail .message-text {
+    width: calc(100% - 70px)
+}
+
+@media only screen and (min-width:1024px) {
+    .venue-info-main div[class*=col-md-4] {
+        padding-right: 0
+    }
+    .venue-info-main div[class*=col-md-8] {
+        padding: 0 13px 0 0
+    }
+    .venue-wrap div[class*=col-md-5] {
+        padding-right: 0
+    }
+    .venue-wrap div[class*=col-md-7] {
+        padding: 0 13px 0 0
+    }
+    .venue-info-main .venue-image {
+        border-right: 1px solid #dfe5e9
+    }
+    .venue-info-main .venue-info {
+        position: relative
+    }
+}
+
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 6px 0 0;
+}
+.table-curved th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
+#order-amendment-container{
+    display:none;
+}
+
+.close-amend-order-panel{
+    cursor:pointer;
+}
+
+.food-item-list-block {
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.food-item-list-block:hover {
+    background-color: #d9edf7;
+}
+
+
+.product-item-list-block {
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.product-item-list-block:hover {
+    background-color: #d9edf7;
+}
+
+.center {
+    width: 150px;
+    margin: 40px auto;
+}
+
+.entertainer-list-block {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* height: 200px; */
+    border: 1px solid #2C3E50;
+    border-top: 0px;
+}
+
+.venue-list-block {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-left:5px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 280px;
+    border: 1px solid #2C3E50;
+    border-top: 0px;
+}
+
+.food-list-block {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-left:5px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 280px;
+    border: 1px solid #2C3E50;
+    border-top: 0px;
+}
+
+.product-list-block {
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-left:5px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 280px;
+    border: 1px solid #2C3E50;
+    border-top: 0px;
+}
